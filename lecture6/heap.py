@@ -18,12 +18,15 @@ class Heap:
             raise IndexError("Pull from empty heap")
         
         root = self.data[0]
-        # Move the last element to the root and remove it
-        self.data[0] = self.data.pop()
         
-        # Restore heap property by bubbling down the new root
-        if not self.is_empty():
+        # Move the last element to the root and remove it
+        if len(self.data) > 1:
+            self.data[0] = self.data.pop()  # Move the last element to the root
+            # Restore heap property by bubbling down the new root
             self._bubble_down(0)
+        else:
+            # If there is only one element left, simply pop it
+            self.data.pop()  # Remove the last element, no need to bubble down
         
         return root
 
