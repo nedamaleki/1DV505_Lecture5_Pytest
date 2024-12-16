@@ -1,0 +1,30 @@
+graph BST {
+    "39" -- "26";
+    "26" -- "19";
+    "19" -- "10";
+    L10 [style=invis, width=0, label=" "];
+    "10" -- L10 [style=invis, width=0, label=" "];
+    R10 [style=invis, width=0, label=" "];
+    "10" -- R10 [style=invis, width=0, label=" "];
+    "19" -- "22";
+    L22 [style=invis, width=0, label=" "];
+    "22" -- L22 [style=invis, width=0, label=" "];
+    R22 [style=invis, width=0, label=" "];
+    "22" -- R22 [style=invis, width=0, label=" "];
+    "26" -- "37";
+    L37 [style=invis, width=0, label=" "];
+    "37" -- L37 [style=invis, width=0, label=" "];
+    R37 [style=invis, width=0, label=" "];
+    "37" -- R37 [style=invis, width=0, label=" "];
+    "39" -- "90";
+    "90" -- "77";
+    L77 [style=invis, width=0, label=" "];
+    "77" -- L77 [style=invis, width=0, label=" "];
+    R77 [style=invis, width=0, label=" "];
+    "77" -- R77 [style=invis, width=0, label=" "];
+    "90" -- "94";
+    L94 [style=invis, width=0, label=" "];
+    "94" -- L94 [style=invis, width=0, label=" "];
+    R94 [style=invis, width=0, label=" "];
+    "94" -- R94 [style=invis, width=0, label=" "];
+}
